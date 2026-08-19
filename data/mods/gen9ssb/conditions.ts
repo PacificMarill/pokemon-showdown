@@ -636,16 +636,16 @@ export const Conditions: { [id: IDEntry]: ModdedConditionData & { innateName?: s
 			this.add(`c:|${getName('Cake')}|livid washed is a nerd`);
 		},
 	},
-	calmvibes: {
+	marillvibes: {
 		noCopy: true,
 		onStart() {
-			this.add(`c:|${getName('calmvibes ♫')}|Is that a __rat__?`);
+			this.add(`c:|${getName('marillvibes')}|Is that a __rat__?`);
 		},
 		onSwitchOut() {
-			this.add(`c:|${getName('calmvibes ♫')}|Here for a good time, not a long time!`);
+			this.add(`c:|${getName('marillvibes')}|Here for a good time, not a long time!`);
 		},
 		onFaint() {
-			this.add(`c:|${getName('calmvibes ♫')}|The vibes are off... :(`);
+			this.add(`c:|${getName('marillvibes')}|The vibes are off... :(`);
 		},
 	},
 	cassiopeia: {
